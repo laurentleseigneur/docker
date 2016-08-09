@@ -4,9 +4,12 @@
  
 ### configuration
 
-set required `max_prepared_transactions` setting
+set required `max_prepared_transactions` setting required by BonitaBPM
 
-create user/database `bonita` and `bizdata`, with password `bpm`
+
+### databases
+
+create user and database `bonita` and `business_data`, with password `bpm`
 
 ## build it
 
