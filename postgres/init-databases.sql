@@ -12,14 +12,14 @@ GRANT CONNECT, TEMPORARY ON DATABASE bonita TO public;
 GRANT ALL ON DATABASE bonita TO bonita;
 
 
-CREATE ROLE bizdata LOGIN PASSWORD 'bpm';
+CREATE ROLE business_data LOGIN PASSWORD 'bpm';
 
-CREATE DATABASE bizdata
-  WITH OWNER = bizdata
+CREATE DATABASE business_data
+  WITH OWNER = business_data
        ENCODING = 'UTF8'
        TABLESPACE = pg_default
        CONNECTION LIMIT = -1;
 
-GRANT CONNECT, TEMPORARY ON DATABASE bizdata TO public;
+GRANT CONNECT, TEMPORARY ON DATABASE business_data TO public;
 
-GRANT ALL ON DATABASE bizdata TO bizdata;
+GRANT ALL ON DATABASE business_data TO business_data;
