@@ -1,17 +1,15 @@
-# This image is based on MySQL [5.5](https://github.com/docker-library/mysql/blob/8ed790ab199eeef0f36ef0547ae28e5654cbef0d/5.5/Dockerfile) from the [MySQL Official Repo](https://registry.hub.docker.com/_/mysql/).
+# This image is based on postgres 9.3 image
 
 ## additions 
  
- `/etc/mysql/conf.d/docker.cnf` config file:
+### configuration
 
-```
-[mysqld]
-max_allowed_packet=20M
-character-set-server=utf8
-collation-server=utf8_general_ci
-```
-database bonita, owned by user bonita/bpm
+set required `max_prepared_transactions` setting required by BonitaBPM
 
+
+### databases
+
+create user and database `bonita` and `business_data`, with password `bpm`
 
 ## build it
 
