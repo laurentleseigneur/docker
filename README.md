@@ -2,8 +2,9 @@
 
 ## supported DB vendors
 
-* [mysql](mysql/README.md)
-* [postgres](postgres/README.md)
+* [mysql 5.5](mysql/README.md)
+* [postgres 9.3](postgres/README.md)
+* [oracle 11g](oracle/README.md)
 
 ## configured databases
 
