@@ -18,7 +18,7 @@ create user and database `bonita` and `business_data`, with password `bpm`
 
 ## run it
 
-`docker run -p 5432:5432 -d bonita-postgres:9.3`
+`docker run -p 5432:5432 -d lleseigneur/bonita-postgres:9.3`
 
 ## shell
 

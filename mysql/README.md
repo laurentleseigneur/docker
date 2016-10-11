@@ -11,15 +11,9 @@
 
 create database `bonita` and `business_data`, owned by user with same name and password set to `bpm`
 
-
-## build it
-
-` docker build -t bonita-mysql:5.5.49  .`
-
-
 ## run it
 
-`docker run -p 3306:3306 -d bonita-mysql:5.5.49`
+`docker run -p 3306:3306 -d lleseigneur/bonita-mysql:5.5.49`
 
 ## shell
 
