@@ -4,12 +4,15 @@
  
 ### configuration
 
-add views for xa management
-
+add views for xa management as expected by Bonita BPM
 
 ### databases
 
-create user and database `bonita` and `business_data`, with password `bpm`
+
+create two databases:
+ 
+ * `bonita` owned by user with name `bonita` with password `bpm`
+ * `business_data`, owned by user `business_data` with password `bpm`
 
 ## run it
 

@@ -4,12 +4,17 @@
 
 ### configuration
 
-[/etc/mysql/conf.d/docker.cnf](docker.cnf) config file
+set required `max_allowed_packet` parameter as expected by Bonita BPM
+
+see [/etc/mysql/conf.d/docker.cnf](docker.cnf) config file
 
 
 ### databases
 
-create database `bonita` and `business_data`, owned by user with same name and password set to `bpm`
+create two databases:
+ 
+ * `bonita` owned by user with name `bonita` with password `bpm`
+ * `business_data`, owned by user `business_data` with password `bpm`
 
 ## run it
 
