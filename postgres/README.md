@@ -6,6 +6,9 @@
 
 set required `max_prepared_transactions` setting as expected by Bonita BPM
 
+### healthcheck
+
+add healthcheck based on bonita login using psql
 
 ### databases
 
